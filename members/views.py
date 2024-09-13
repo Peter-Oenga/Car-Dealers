@@ -9,3 +9,6 @@ def index(request):
 
 def gallery(request):
     return render(request, "gallery.html")
+
+def description(request):
+    return render(request, "description.html")

@@ -1,4 +1,4 @@
-{% extends 'base.html' %} {% block content %}
+
 
 <!DOCTYPE html>
 <html class="html" lang="en-US">
@@ -2180,7 +2180,7 @@
     <script type="text/javascript">
       (function () {
         var options = {
-          whatsapp: "+27 65 726 8104",
+          whatsapp: "+254795523526",
           // WhatsApp number
           call_to_action: "Message us",
           // Call to action
@@ -2231,7 +2231,7 @@
       content="Here are some new comers We get new cars added to our inventory every week and these are some of the new comers. Are you ready to join our happy clients? We pride ourselves in making sure that our cli..."
     />
     <meta property='"og:site_name"' content='"TJ' Auto Used Cars&quot; />
-    <meta property='"og:title"' content='"Home' | TJ Auto Used Cars&quot; />
+    <meta property='"og:title"' content='"Home' | LOTA Cars&quot; />
     <meta
       property='"og:description"'
       content='"Here'
@@ -3214,7 +3214,7 @@
                   <img
                     width="80"
                     height="80"
-                    src="https://tjauto.co.za/wp-content/uploads/2024/03/cropped-TJ-Auto-logo.png"
+                    src="/static/images/360_F_299134059_j7cI3ZKP7wLpbiZ7RKrr6MrANfVntlHT.jpg"
                     class="custom-logo"
                     alt="Logo"
                     decoding="async"
@@ -3245,7 +3245,7 @@
                     id="menu-item-46"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"
                   >
-                    <a href="https://tjauto.co.za/showroom/" class="menu-link">
+                    <a href="{% url 'gallery' %}" class="menu-link">
                       <span class="text-wrap">Showroom</span>
                     </a>
                   </li>
@@ -3253,7 +3253,7 @@
                     id="menu-item-47"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"
                   >
-                    <a href="https://tjauto.co.za/about/" class="menu-link">
+                    <a href="#" class="menu-link">
                       <span class="text-wrap">About</span>
                     </a>
                   </li>
@@ -3261,18 +3261,11 @@
                     id="menu-item-48"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"
                   >
-                    <a href="https://tjauto.co.za/contact/" class="menu-link">
+                    <a href="#" class="menu-link">
                       <span class="text-wrap">Contact</span>
                     </a>
                   </li>
-                  <li
-                    id="menu-item-49"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
-                  >
-                    <a href="https://tjauto.co.za/dashboard/" class="menu-link">
-                      <span class="text-wrap">Dashboard</span>
-                    </a>
-                  </li>
+                  
                 </ul>
               </nav>
               <!-- #site-navigation -->
@@ -3382,7 +3375,7 @@
                                                         >
                                                           <img
                                                             decoding="async"
-                                                            src="//tjauto.co.za/wp-content/uploads/slider/cache/78c9dbe21dd28b6874967dd02a3d4b8e/2018-TOYOTA-HILUX-2.8-GD-6-RAIDER-4×4-DOUBLE-CAB.jpg"
+                                                            src="/static/images/image1"
                                                             alt=""
                                                             title=""
                                                             loading="lazy"
@@ -3425,7 +3418,7 @@
                                                         >
                                                           <img
                                                             decoding="async"
-                                                            src="//tjauto.co.za/wp-content/uploads/slider/cache/e3ee11cc15b2eac5b3c547d1af2257d5/2015-BMW-1-SERIES-118I-5-DR-AUTO.jpg"
+                                                            src="/static/images/image4.webp"
                                                             alt=""
                                                             title=""
                                                             loading="lazy"
@@ -3545,11 +3538,11 @@
                                                                     display: block;
                                                                   "
                                                                 >
-                                                                  Welcome to TJ
-                                                                  Auto,
+                                                                  Welcome to Lota
+                                                                  ,
                                                                   <br />your
                                                                   home for
-                                                                  Bakkies
+                                                                  Big machines
                                                                   &amp;SUVs
                                                                 </div>
                                                               </div>
@@ -3585,7 +3578,7 @@
                                                         loading="lazy"
                                                         class="n2-ss-slide-thumbnail skip-lazy"
                                                         data-skip-lazy="1"
-                                                        src="https://tjauto.co.za/wp-content/uploads/slider/cache/710df36eae04265738ffe7e5468ce924/2018-TOYOTA-HILUX-2.8-GD-6-RAIDER-4×4-DOUBLE-CAB.jpg"
+                                                        src="/static/images/image2.webp"
                                                         alt="1"
                                                       />
                                                     </div>
@@ -3632,11 +3625,10 @@
                                                                     display: block;
                                                                   "
                                                                 >
-                                                                  Used cars in
-                                                                  excellent
-                                                                  condition<br />Bakkies,
+                                                                Pre-owned vehicles in
+                                                                prime condition<br />Benz,
                                                                   SUVs,
-                                                                  Hatchbacks,
+                                                                  Mazda,
                                                                   Sedans etc.
                                                                 </div>
                                                               </div>
@@ -3672,7 +3664,7 @@
                                                         loading="lazy"
                                                         class="n2-ss-slide-thumbnail skip-lazy"
                                                         data-skip-lazy="1"
-                                                        src="https://tjauto.co.za/wp-content/uploads/slider/cache/e824474cebd4fc2972cd707372d6ccaf/2015-BMW-1-SERIES-118I-5-DR-AUTO.jpg"
+                                                        src="/static/images/image3.webp"
                                                         alt="1"
                                                       />
                                                     </div>
@@ -3719,11 +3711,7 @@
                                                                     display: block;
                                                                   "
                                                                 >
-                                                                  Visit us at
-                                                                  175 Corlett
-                                                                  Drive, Bramley
-                                                                  Johannesburg,
-                                                                  2018
+                                                                  Visit us at Mombasa
                                                                 </div>
                                                               </div>
                                                               <div
@@ -3758,7 +3746,7 @@
                                                         loading="lazy"
                                                         class="n2-ss-slide-thumbnail skip-lazy"
                                                         data-skip-lazy="1"
-                                                        src="https://tjauto.co.za/wp-content/uploads/slider/cache/e824474cebd4fc2972cd707372d6ccaf/2015-BMW-1-SERIES-118I-5-DR-AUTO.jpg"
+                                                        src="/static/images/image3.webp"
                                                         alt="1"
                                                       />
                                                     </div>
@@ -4008,7 +3996,7 @@
                                                     <img
                                                       decoding="async"
                                                       class="directorist-thumnail-card-front-img"
-                                                      src="https://tjauto.co.za/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-09-at-02.01.04-1-640x360.jpeg"
+                                                      src="/static/images/image1"
                                                       alt="2017 Toyota Hilux 2.8GD-6 Xtra cab 4&#215;4 Raider"
                                                     />
                                                   </div>
@@ -4157,7 +4145,7 @@
                                                     <img
                                                       decoding="async"
                                                       class="directorist-thumnail-card-front-img"
-                                                      src="https://tjauto.co.za/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-09-at-01.59.00-1-640x360.jpeg"
+                                                      src="/static/images/image2.webp"
                                                       alt="2018 TOYOTA HILUX 2,4 GD SINGLE CAB"
                                                     />
                                                   </div>
@@ -4301,7 +4289,7 @@
                                                     <img
                                                       decoding="async"
                                                       class="directorist-thumnail-card-front-img"
-                                                      src="https://tjauto.co.za/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-09-at-01.57.17-2-640x360.jpeg"
+                                                      src="/static/images/image3.webp"
                                                       alt="2008 FORD FIESTA 1,4 AMBIENTE"
                                                     />
                                                   </div>
@@ -4445,7 +4433,7 @@
                                                     <img
                                                       decoding="async"
                                                       class="directorist-thumnail-card-front-img"
-                                                      src="https://tjauto.co.za/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-09-at-01.54.48-1-Copy-640x360.jpeg"
+                                                      src="/static/images/image1"
                                                       alt="2016 Isuzu KB 250D-Teq Double Cab Hi-Rider"
                                                     />
                                                   </div>
@@ -4589,7 +4577,7 @@
                                                     <img
                                                       decoding="async"
                                                       class="directorist-thumnail-card-front-img"
-                                                      src="https://tjauto.co.za/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-09-at-01.49.55-1-Copy-640x360.jpeg"
+                                                      src="/static/images/image4.webp"
                                                       alt="2019 Kia Picanto 1.0 Start"
                                                     />
                                                   </div>
@@ -4733,7 +4721,7 @@
                                                     <img
                                                       decoding="async"
                                                       class="directorist-thumnail-card-front-img"
-                                                      src="https://tjauto.co.za/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-09-at-01.46.22-2-640x360.jpeg"
+                                                      src="/static/images/image2.webp"
                                                       alt="2015 Isuzu KB 300D-Teq Double Cab 4&#215;4 LX"
                                                     />
                                                   </div>
@@ -4958,7 +4946,7 @@
                                       <img
                                         decoding="async"
                                         class="swiper-slide-image"
-                                        src="https://tjauto.co.za/wp-content/uploads/2024/03/2.jpg"
+                                        src="/static/images/happyclients/image1.jpg"
                                         alt="2"
                                       />
                                     </figure>
@@ -4973,7 +4961,7 @@
                                       <img
                                         decoding="async"
                                         class="swiper-slide-image"
-                                        src="https://tjauto.co.za/wp-content/uploads/2024/03/3.jpg"
+                                        src="/static/images/happyclients/image2.jpg"
                                         alt="3"
                                       />
                                     </figure>
@@ -4988,7 +4976,7 @@
                                       <img
                                         decoding="async"
                                         class="swiper-slide-image"
-                                        src="https://tjauto.co.za/wp-content/uploads/2024/03/12.jpg"
+                                        src="/static/images/happyclients/image3.jpg"
                                         alt="12"
                                       />
                                     </figure>
@@ -5003,7 +4991,7 @@
                                       <img
                                         decoding="async"
                                         class="swiper-slide-image"
-                                        src="https://tjauto.co.za/wp-content/uploads/2024/03/21.jpeg"
+                                        src="/static/images/happyclients/image4.jpg"
                                         alt="21"
                                       />
                                     </figure>
@@ -5018,7 +5006,7 @@
                                       <img
                                         decoding="async"
                                         class="swiper-slide-image"
-                                        src="https://tjauto.co.za/wp-content/uploads/2024/03/IMG-20231111-WA0002.jpg"
+                                        src="/static/images/happyclients/image5.jpg"
                                         alt="IMG-20231111-WA0002"
                                       />
                                     </figure>
@@ -5033,7 +5021,7 @@
                                       <img
                                         decoding="async"
                                         class="swiper-slide-image"
-                                        src="https://tjauto.co.za/wp-content/uploads/2024/03/IMG-20231111-WA0006.jpg"
+                                        src="/static/images/happyclients/image6.jpg"
                                         alt="IMG-20231111-WA0006"
                                       />
                                     </figure>
@@ -5048,7 +5036,7 @@
                                       <img
                                         decoding="async"
                                         class="swiper-slide-image"
-                                        src="https://tjauto.co.za/wp-content/uploads/2024/03/IMG-20231111-WA0016.jpg"
+                                        src="/static/images/happyclients/image7.jpg"
                                         alt="IMG-20231111-WA0016"
                                       />
                                     </figure>
@@ -5063,7 +5051,7 @@
                                       <img
                                         decoding="async"
                                         class="swiper-slide-image"
-                                        src="https://tjauto.co.za/wp-content/uploads/2024/03/IMG-20231111-WA0039.jpg"
+                                        src="/static/images/happyclients/image8.jpg"
                                         alt="IMG-20231111-WA0039"
                                       />
                                     </figure>
@@ -5078,7 +5066,7 @@
                                       <img
                                         decoding="async"
                                         class="swiper-slide-image"
-                                        src="https://tjauto.co.za/wp-content/uploads/2024/03/IMG-20231116-WA0009.jpg"
+                                        src="/static/images/happyclients/image9.jpg"
                                         alt="IMG-20231116-WA0009"
                                       />
                                     </figure>
@@ -5730,7 +5718,7 @@
                                 <div class="elementor-button-wrapper">
                                   <a
                                     class="elementor-button elementor-button-link elementor-size-sm elementor-animation-pulse-grow"
-                                    href="https://tjauto.co.za/contact/"
+                                    href="#"
                                   >
                                     <span
                                       class="elementor-button-content-wrapper"
@@ -5814,7 +5802,7 @@
                                 <div class="elementor-button-wrapper">
                                   <a
                                     class="elementor-button elementor-button-link elementor-size-sm elementor-animation-pulse-grow"
-                                    href="https://tjauto.co.za/contact/"
+                                    href="#"
                                   >
                                     <span
                                       class="elementor-button-content-wrapper"
@@ -5898,7 +5886,7 @@
                                 <div class="elementor-button-wrapper">
                                   <a
                                     class="elementor-button elementor-button-link elementor-size-sm elementor-animation-pulse-grow"
-                                    href="https://tjauto.co.za/contact/"
+                                    href="#"
                                   >
                                     <span
                                       class="elementor-button-content-wrapper"
@@ -5957,28 +5945,24 @@
             <li
               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-36 current_page_item menu-item-45"
             >
-              <a href="https://tjauto.co.za/" aria-current="page">Home</a>
+              <a href="{% url  'index' %}" aria-current="page">Home</a>
             </li>
             <li
               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"
             >
-              <a href="https://tjauto.co.za/showroom/">Showroom</a>
+              <a href="{% url  'gallery' %}">Showroom</a>
             </li>
             <li
               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"
             >
-              <a href="https://tjauto.co.za/about/">About</a>
+              <a href="#">About</a>
             </li>
             <li
               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"
             >
-              <a href="https://tjauto.co.za/contact/">Contact</a>
+              <a href="#">Contact</a>
             </li>
-            <li
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
-            >
-              <a href="https://tjauto.co.za/dashboard/">Dashboard</a>
-            </li>
+           
           </ul>
         </nav>
       </div>
@@ -6483,4 +6467,3 @@
   </body>
 </html>
 
-{%endblock%}
